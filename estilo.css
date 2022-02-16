@@ -69,8 +69,7 @@ img{
 .small{
     position: relative;
     height:15vw;
-    background: rgb(228,41,41);
-    background: radial-gradient(circle, rgba(228,41,41,1) 37%, rgba(102,19,19,1) 100%);    
+       
 }
 .small img{
    margin-top:1vw;
@@ -79,8 +78,7 @@ img{
     position: relative;
     grid-column-end: span 2;
     grid-row-end: span 2;
-    background: rgb(60,41,167);
-    background: radial-gradient(circle, rgba(60,41,167,1) 37%, rgba(31,34,187,1) 100%);
+    
     
 }
 .shayminCont{
@@ -94,13 +92,15 @@ img{
 .articunoCont{
     background-image: url(./images/articuno.png);
     background-size: cover;
+    
 }
 .infernapeCont{
     background-image: url(./images/infernape.png);
     background-size: cover;
 }
 .rayquazaCont{
-    background-image: url(./images/rayquaza.png);
+    background-image: url(./images/rayquaza.png), rgb(60,41,167), radial-gradient(circle, rgba(60,41,167,1) 37% ,rgba(31,34,187,1) 100%);
+
     background-size: cover;
 }
 .treeckoCont{
